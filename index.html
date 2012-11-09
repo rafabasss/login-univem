@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+		
+	<head>
+		<meta charset="UTF-8">
+		
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+		
+		<link href="index.css" type="text/css" rel="stylesheet">
+		
+		<script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
+	</head>
+	
+	<body>
+		<header><img src="logo.png" alt="Wifi Univem"></header>
+		
+		<form name="login" action="https://hotspot.univem.edu.br/login" method="post">
+			<input type="hidden" name="dst" value="http://hotspot.univem.edu.br/status" />
+			<input type="hidden" name="popup" value="false" />
+			<label>Login</label><input name="username" type="number" value="" size="20"/><br>
+			<label>Senha</label><input name="password" type="password" size="20"/>
+			<br><br>
+			<input type="submit" value="OK" />
+		</form>
+		<footer>
+			<a href="http://www.webnsky.com.br"><img src="web.png" alt="Web 'n Sky"></a>
+		</footer>
+	</body>
+</html>

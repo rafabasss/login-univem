@@ -1,0 +1,19 @@
+<form name="login" action="https://hotspot.univem.edu.br/login" method="post"
+					    >
+						<input type="hidden" name="dst" value="http://google.com/" />
+						<input type="hidden" name="popup" value="true" />
+						
+							<table width="100" style="background-color: #ffffff">
+								<tr><td align="right">login</td>
+										<td>
+                                        <input style="width: 80px" name="username" type="text" value="" size="20"/></td>
+								</tr>
+								<tr><td align="right">password</td>
+										<td>
+                                        <input style="width: 80px" name="password" type="password" size="20"/></td>
+								</tr>
+								<tr><td>&nbsp;</td>
+										<td><input type="submit" value="OK" /></td>
+								</tr>
+							</table>
+					</form>

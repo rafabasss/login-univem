@@ -1,0 +1,73 @@
+body{
+	background: url(textura.png);
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica, Arial, Verdana, sans;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+}
+header{
+	display : block;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	background: #146dc9 url(sinal.png) no-repeat;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+header img{
+	margin-top: 7px;
+}
+form{
+	display: block;
+	width: 100%;
+	height: 200px;
+	margin-top:10%;
+}
+
+label{
+	display: inline-block;
+	width: 20%;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+	margin-top: 5px;
+}
+input{
+	margin-top: 5px;
+	display: inline-block;
+	line-height: 30px;
+	height: 30px;
+	width: 70%;
+	text-align: left;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+}
+input[type=number],input[type=text],input[type=password]{
+	text-indent: 10px;
+}
+input[type=submit]{
+	text-align: center;
+	background: #0099ff;
+	border: 2px solid #0055ff;
+	color: #fff;
+}
+footer{
+	display : block;
+	width: 100%;
+	height: 48px;
+	border-bottom: 4px solid #0af;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	bottom: 0px;
+}
+footer img{
+	margin: 0px;
+}
