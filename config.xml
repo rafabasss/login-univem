@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.login.univem"
+        versionCode="10" 
+        version   = "0.1">
+
+		<!-- versionCode is optional and Android only -->
+
+		<name>Geo</name>
+		
+		<icon src="icon.png" />
+		
+		<description>
+			Sistema de Login para a rede Wireless da UNIVEM que usa o sistema Mikrotik
+			Aplicação desenvolvida por Rafael Sant'Ana
+			Ano - 2012
+		</description>
+
+		<author href="http://www.rafaelsantana.blog.com" email="rafael1803@gmail.com">
+			Rafael Sant'Ana 
+		</author>
+		
+	</widget>
